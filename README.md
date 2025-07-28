@@ -6,7 +6,7 @@ This document presents a comprehensive cloud architecture design for Innovate In
 
 ## Architecture Overview
 
-![High-Level Architecture](innovate_inc_aws_cloud_architecture.png)
+![High-Level Architecture](innovate_inc_-_aws_cloud_architecture.png)
 
 The proposed architecture leverages AWS managed services with a multi-account strategy, containerized applications on Amazon EKS, and robust security for handling sensitive user data.
 
@@ -46,7 +46,7 @@ We recommend a **4-account structure** following AWS best practices:
 
 ### VPC Architecture
 
-![Network Architecture](network_architecture_multi_az_setup.png)
+![Network Architecture](network_architecture_-_multi-az_setup.png)
 
 #### Production VPC (`10.0.0.0/16`)
 
