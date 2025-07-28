@@ -159,7 +159,7 @@ We recommend a **4-account structure** following AWS best practices:
 
 ## 5. CI/CD Pipeline
 
-![CI/CD Architecture](ci_cd_pipeline_architecture.png)
+![CI/CD Architecture](ci-cd_pipeline_architecture.png)
 
 ### Pipeline Architecture
 1. **Source**: GitHub repository triggers on commit
@@ -251,31 +251,6 @@ We recommend a **4-account structure** following AWS best practices:
 - **Infrastructure**: CPU, memory, disk, network utilization
 - **Database**: Connection count, query performance, replication lag
 - **Cost**: Daily spend tracking and budget alerts
-
-## 10. Implementation Roadmap
-
-### Phase 1: Foundation (Weeks 1-2)
-- Set up AWS accounts and IAM structure
-- Create VPC and networking components
-- Deploy basic EKS cluster
-
-### Phase 2: Application Deployment (Weeks 3-4)
-- Configure CI/CD pipeline
-- Deploy applications to EKS
-- Set up RDS PostgreSQL
-- Implement basic monitoring
-
-### Phase 3: Security & Optimization (Weeks 5-6)
-- Implement security best practices
-- Set up disaster recovery
-- Optimize costs and performance
-- Load testing and scaling verification
-
-### Phase 4: Production Readiness (Weeks 7-8)
-- Security audit and penetration testing
-- Performance tuning
-- Documentation and training
-- Go-live preparation
 
 ## Conclusion
 
